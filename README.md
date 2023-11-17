@@ -1,4 +1,4 @@
-# UriOnlineJudge
+# Beecrowd
 Repositório com os exercícios com status de sucesso feitos na Plataforma Beecrowd! 
 
 Repository with the exercises with success status done on the beecrowd Platform
