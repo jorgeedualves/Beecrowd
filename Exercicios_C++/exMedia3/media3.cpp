@@ -27,7 +27,7 @@ if(media >= 7.0)
 	cout << "Media: " << media << endl;
 	cout << "Aluno aprovado." << endl;
 }
-else if(media <= 5.0)
+else if(media < 5.0)
 {
 	cout << "Media: " << media << endl;
 	cout << "Aluno reprovado." << endl;
