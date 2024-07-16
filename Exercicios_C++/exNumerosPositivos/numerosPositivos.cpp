@@ -2,17 +2,16 @@
 
 using namespace std;
 
-int main (void){
-
+int main() {
     float num;
-    int i = 0, j = 0;
+    int contadorPositivos = 0;
 
-    while(i < 6){
+    for (int i = 0; i < 6; ++i) {
         cin >> num;
-        if(num > 0)
-            j++;
-        i++;
+        if (num > 0)
+            ++contadorPositivos;
     }
-    cout << j << " valores positivos" << endl;
-    return(0);
+
+    cout << contadorPositivos << " valores positivos" << endl;
+    return 0;
 }
